@@ -15,7 +15,7 @@ if st.button("Book Ticket"):
             st.success("Ticket booked successfully!")
             st.markdown("----- Booking Summary -----")
             st.write(f"**Customer Name:** {customer_name}")
-            st.write(f"**Movie:** {movie_title}")
+            st.write(f"**Movie Title:** {movie_title}")
             st.write(f"**Show Time:** {show_time}")
             st.write(f"**Seat Type:** {seat_type}")
     except Exception as e:
