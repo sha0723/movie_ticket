@@ -12,7 +12,8 @@ if st.button("Book Ticket"):
         if not customer_name or not customer_name.strip():
             st.error("Customer name cannot be empty!")
         else:
-            st.success("Booking successful!")
+            st.success("Ticket booked successfully!")
+            ----- Booking Summary -----
             st.write(f"**Customer:** {customer_name}")
             st.write(f"**Movie:** {movie_title}")
             st.write(f"**Show Time:** {show_time}")
